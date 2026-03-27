@@ -1,0 +1,204 @@
+﻿* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+table {
+    width: 100%;
+    margin: auto;
+    margin-top: 1vh;
+    table-layout: fixed;
+}
+
+td {
+    table-layout: fixed;
+    height: 10vh;
+}
+
+.borda {
+    border: 1px solid;
+    text-align: center;
+    border-radius: 10px;
+    
+}
+
+div {
+    text-align: left;
+    padding-left: 5px;
+}
+
+.naometais {
+    background-color: rgba(156, 224, 111, 0.788);
+}
+
+.metaisalcalinos {
+    background-color: rgb(255, 196, 0);
+}
+
+.metaisterrosos {
+    background-color: rgb(255, 230, 0);
+}
+
+.metaisdetransicao {
+    background-color: rgba(218, 28, 75, 0.445);
+}
+
+.outrosmetais {
+    background-color: rgba(19, 107, 134, 0.445);
+}
+
+.semimetais {
+    background-color: rgba(25, 180, 147, 0.445);
+}
+
+.halogenios {
+    background-color: rgba(67, 253, 253, 0.445);
+}
+
+.gasesnobres {
+    background-color: rgba(0, 153, 255, 0.705);
+}
+
+.lantanideos {
+    text-align: center;
+    background-color: rgba(52, 10, 129, 0.486);
+}
+
+.actinideos {
+    text-align: center;
+    background-color: rgba(183, 57, 255, 0.356);
+}
+
+.container-principal {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    font-family: sans-serif
+}
+
+.texto-vertical {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    font-weight: bold;
+    letter-spacing: 4px;
+    margin-right: 15px;
+    font-family: sans-serif;
+}
+
+.tabelas-container {
+    width: 100%;
+}
+
+.coluna-periodo {
+    width: 3%;
+    border: none;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+.negrito {
+    font-weight: bold;
+}
+
+.Lnaometais {
+    border-radius: 3px;
+    float: right;
+    width: 20px;
+    height:20px;
+    background-color: rgba(156, 224, 111, 0.788);
+}
+
+.Lmetaisalcalinos {
+    border-radius: 3px;
+    float: right;
+    width: 20px;
+    height:20px;
+    background-color: rgb(255, 196, 0);
+}
+
+.Lsemimetais {
+    border-radius: 3px;
+    float: right;
+    width: 20px;
+    height:20px;
+    background-color: rgba(25, 180, 147, 0.445);
+}
+
+.Loutrosmetais {
+    border-radius: 3px;
+    float: right;
+    width: 20px;
+    height:20px;
+    background-color: rgba(19, 107, 134, 0.445);
+}
+
+.Llantanideos {
+    border-radius: 3px;
+    float: right;
+    width: 20px;
+    height:20px;
+    background-color: rgba(52, 10, 129, 0.486);
+}
+
+.Lgasesnobres {
+    border-radius: 3px;
+    float: right;
+    width: 20px;
+    height:20px;
+    background-color: rgba(0, 153, 255, 0.705);
+}
+
+.Lmetaisterrosos {
+    border-radius: 3px;
+    float: right;
+    width: 20px;
+    height:20px;
+    background-color: rgb(255, 230, 0);
+}
+
+.Lhalogenios {
+    border-radius: 3px;
+    float: right;
+    width: 20px;
+    height:20px;
+    background-color: rgba(67, 253, 253, 0.445);
+}
+
+.Lmetaisdetransicao {
+    border-radius: 3px;
+    float: right;
+    width: 20px;
+    height:20px;
+    background-color: rgba(218, 28, 75, 0.445);
+}
+
+.Lactinideos {
+    border-radius: 3px;
+    float: right;
+    width: 20px;
+    height:20px;
+    background-color: rgba(183, 57, 255, 0.356);
+}
+
+.ancora-imagem {
+    position: relative;
+    width: 0;
+    height: 0;
+    overflow: visible;
+}
+
+.imagem-vazada {
+  position: absolute;
+  top: -20px;
+  left: 10px;
+  width: 20vw;
+  height: auto;
+  z-index: 10;
+}
+
+.rob {
+    border-radius: 10px;
+}
